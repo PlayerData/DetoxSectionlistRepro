@@ -1,0 +1,14 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "configurations": {
+    "ios": {
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/DetoxSectionlistRepro.app",
+      "build": "xcodebuild -workspace ios/DetoxSectionlistRepro.xcworkspace -scheme DetoxSectionlistRepro -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 11 Pro"
+      }
+    }
+  }
+}

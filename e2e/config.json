@@ -1,0 +1,10 @@
+{
+  "bail": true,
+  "setupFilesAfterEnv": ["./init.js"],
+  "testEnvironment": "./environment",
+  "testRunner": "jest-circus/runner",
+  "testTimeout": 120000,
+  "reporters": ["detox/runners/jest/streamlineReporter"],
+  "verbose": true,
+  "moduleDirectories": ["node_modules", "src"]
+}
